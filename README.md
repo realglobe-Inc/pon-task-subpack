@@ -107,6 +107,16 @@ Define task
 | options | Object |  Optional settings |
 
 
+### `npmrcCopy(base, sub) -> function()`
+
+Copy .npmrc file to sub package directories
+
+| Param | type | Description |
+| ---- | --- | ----------- |
+| base | string |  Base package json file path |
+| sub | string |  Sub packages file pattern |
+
+
 ### `prune(base, sub) -> function()`
 
 冗長な依存関係を除去
