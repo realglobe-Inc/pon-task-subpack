@@ -1,6 +1,6 @@
 {
   "name": "pon-task-subpack",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Manage sub packages for monorepo",
   "main": "lib",
   "browser": "shim/browser",
