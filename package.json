@@ -1,6 +1,6 @@
 {
   "name": "pon-task-subpack",
-  "version": "1.0.3",
+  "version": "1.1.0",
   "description": "Manage sub packages for monorepo",
   "main": "lib",
   "browser": "shim/browser",
@@ -25,6 +25,7 @@
   "dependencies": {
     "@the-/util-file": "^15.4.7",
     "aglob": "^3.0.2",
+    "asfs": "^2.2.3",
     "semver": "^6.1.0"
   },
   "devDependencies": {
