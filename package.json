@@ -23,7 +23,9 @@
   },
   "homepage": "https://github.com/realglobe-Inc/pon-task-subpack#readme",
   "dependencies": {
-    "@the-/util-file": "^15.4.7"
+    "@the-/util-file": "^15.4.7",
+    "aglob": "^3.0.2",
+    "semver": "^6.1.0"
   },
   "devDependencies": {
     "ababel": "^4.0.1",
