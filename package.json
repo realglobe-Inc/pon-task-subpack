@@ -26,6 +26,7 @@
     "@the-/util-file": "^15.4.7",
     "aglob": "^3.0.2",
     "asfs": "^2.2.3",
+    "ini": "^1.3.5",
     "semver": "^6.1.0"
   },
   "devDependencies": {
