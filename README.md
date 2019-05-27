@@ -117,6 +117,17 @@ Copy .npmrc file to sub package directories
 | sub | string |  Sub packages file pattern |
 
 
+### `npmrcFix(base, sub, options) -> function()`
+
+Fix .npmrc
+
+| Param | type | Description |
+| ---- | --- | ----------- |
+| base | string |  Base package json file path |
+| sub | string |  Sub packages file pattern |
+| options | Object |  Optional settings |
+
+
 ### `prune(base, sub) -> function()`
 
 冗長な依存関係を除去
@@ -125,6 +136,17 @@ Copy .npmrc file to sub package directories
 | ---- | --- | ----------- |
 | base | string |  Base package json file path |
 | sub | string |  Sub packages file pattern |
+
+
+### `sync(base, sub, mapper) -> function()`
+
+中身を同期
+
+| Param | type | Description |
+| ---- | --- | ----------- |
+| base | string |  Base package json file path |
+| sub | string |  Sub packages file pattern |
+| mapper | function |  Value mapper |
 
 
 
