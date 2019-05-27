@@ -117,7 +117,7 @@ Copy .npmrc file to sub package directories
 | sub | string |  Sub packages file pattern |
 
 
-### `npmrcFix(base, sub, options) -> function()`
+### `npmrcFix(base, sub, config) -> function()`
 
 Fix .npmrc
 
@@ -125,7 +125,7 @@ Fix .npmrc
 | ---- | --- | ----------- |
 | base | string |  Base package json file path |
 | sub | string |  Sub packages file pattern |
-| options | Object |  Optional settings |
+| config | Object |  Config |
 
 
 ### `prune(base, sub) -> function()`
