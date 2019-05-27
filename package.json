@@ -3,9 +3,8 @@
   "version": "1.0.6",
   "description": "Manage sub packages for monorepo",
   "main": "lib",
-  "browser": "shim/browser",
   "scripts": {
-    "prepare": "node ./ci/build.js && node ./ci/shim.js ",
+    "prepare": "node ./ci/build.js",
     "test": "node ./ci/test.js"
   },
   "repository": "realglobe-Inc/pon-task-subpack",
@@ -30,18 +29,17 @@
     "semver": "^6.1.0"
   },
   "devDependencies": {
-    "ababel": "^4.0.1",
-    "amocha": "^4.0.0",
+    "amocha": "*",
     "ape-doc": "^2.0.4",
-    "ape-formatting": "^1.0.2",
-    "ape-releasing": "^4.0.4",
+    "ape-formatting": "*",
+    "ape-releasing": "*",
     "ape-tasking": "^4.0.9",
     "ape-tmpl": "^6.0.8",
-    "ape-updating": "^4.1.0",
-    "coz": "^6.0.20",
+    "ape-updating": "*",
+    "coz": "*",
     "injectmock": "^2.0.0",
-    "pon-context": "^2.0.1",
-    "pon-doc": "^2.0.1",
+    "pon-context": "*",
+    "pon-doc": "*",
     "sugos-travis": "^2.0.7"
   },
   "engines": {
