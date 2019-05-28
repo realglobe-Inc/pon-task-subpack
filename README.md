@@ -138,7 +138,7 @@ Fix .npmrc
 | sub | string |  Sub packages file pattern |
 
 
-### `sync(base, sub, mapper) -> function()`
+### `sync(base, sub, mapper, options) -> function()`
 
 中身を同期
 
@@ -147,6 +147,7 @@ Fix .npmrc
 | base | string |  Base package json file path |
 | sub | string |  Sub packages file pattern |
 | mapper | function |  Value mapper |
+| options | Object |  Optional setting |
 
 
 
