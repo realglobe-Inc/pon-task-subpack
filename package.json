@@ -1,6 +1,6 @@
 {
   "name": "pon-task-subpack",
-  "version": "1.0.16",
+  "version": "1.0.17",
   "description": "Manage sub packages for monorepo",
   "main": "lib",
   "scripts": {
