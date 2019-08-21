@@ -128,7 +128,7 @@ Fix .npmrc
 | config | Object |  Config |
 
 
-### `prune(base, sub) -> function()`
+### `prune(base, sub, options) -> function(Object): Promise`
 
 冗長な依存関係を除去
 
@@ -136,6 +136,7 @@ Fix .npmrc
 | ---- | --- | ----------- |
 | base | string |  Base package json file path |
 | sub | string |  Sub packages file pattern |
+| options | Object |  Optional setting |
 
 
 ### `sync(base, sub, mapper, options) -> function()`
