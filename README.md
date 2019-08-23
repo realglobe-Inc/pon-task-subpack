@@ -135,7 +135,7 @@ Fix .npmrc
 | Param | type | Description |
 | ---- | --- | ----------- |
 | base | string |  Base package json file path |
-| sub | string |  Sub packages file pattern |
+| sub | string&#124;string[] |  Sub packages file pattern |
 | options | Object |  Optional setting |
 | options.except | string |  Exceptions |
 | options.localDeps | boolean |  Should prune local deps |
